@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>
+		Hello World
+	</title>
+</head>
+<body>
+
+	<div id="topnav">
+		<a href="#cover">HOME</a>
+		<a href="#page1">PAGE 1</a>
+		<a href="#page2">PAGE 2</a>
+		<a href="#page3">PAGE 3</a>
+		<a href="#comments">FEEDBACK</a>
+	</div>
+
+	<div id="cover">
+		<img src="display_picture.png">
+		<br>
+		<span>HELLO WORLD!</span>
+		<div>
+			This here is my first experiment with creating a webpage with a modern feel employing
+			HTML, CSS and JS, thanks to the assignment by DevClub, IITD.
+			<br>
+			Sorry for not making a personal webpage though. It's a lot more burden to think about presenting oneself decently on a website with specified constraints!
+		</div>
+	</div>
+	<hr>
+
+	<div id="page1" class="page">
+		<img src="div_image_1.png">
+		Anim cillum nisi aliqua deserunt nostrud et elit culpa mollit fugiat non. Lorem ipsum labore esse proident officia nisi elit dolore occaecat do dolor anim velit anim ea ut nulla id deserunt adipisicing sint sint minim dolore anim in esse veniam culpa cillum pariatur sunt ut esse.
+	</div>
+	<hr>
+
+	<div id="page2" class="page">
+		<img src="div_image_2.png">
+		Laborum non id ut pariatur fugiat do occaecat ea dolor quis id cupidatat ut. Quis sint voluptate ex minim qui exercitation in in et nisi non aute. Anim sed sint adipisicing aliquip consectetur labore reprehenderit qui id eu do nisi labore velit nulla esse.
+	</div>
+	<hr>
+
+	<div id="page3" class="page">
+		<div>
+			Voluptate sit cillum ad cillum cupidatat cillum incididunt deserunt occaecat nisi est non in. Mollit amet sit nulla ad nostrud nulla dolore occaecat exercitation officia dolore exercitation laboris est velit laboris enim laboris.
+		</div>
+		<img src="div_image_3.png">
+		<div>
+			Dolor adipisicing in reprehenderit ut nostrud amet magna occaecat duis laborum eu dolor. Ex ad excepteur labore et ad anim cupidatat esse ut. Occaecat incididunt do ut elit reprehenderit eu sed voluptate ex deserunt ullamco in minim. Ut nulla fugiat sint ad eu eiusmod ut minim qui id exercitation nulla quis dolore.
+		</div>
+	</div>
+	<hr>
+
+	<div id="comments" class="page">
+		<span>FEEDBACK</span>
+		<br>
+		<div id="box">
+			<textarea id="cbox" placeholder="Your comment here."></textarea>
+			<br>
+			Submit as:
+			<br>
+			<input type="text" id="nbox" placeholder="Your name here."></textarea>
+			<br>
+			<div align="right"><div id="post" tabindex="0" onkeypress="postComment();" onclick="postComment();">POST</div></div>
+			<hr>
+		</div>
+		<div id="prev_comments">
+		</div>
+
+		<p style="vertical-align: baseline;">
+			<a href="https://www.facebook.com/theForgottenWizard" style="text-decoration: none; display: inline-block;">
+				<img style="height: 64px; width: 64px;" src="fb.png">
+			</a>
+			<a href="https://plus.google.com/u/0/104612971332588471891" style="display: inline-block">
+				<img style="height: 64px; width: 64px;" src="gp.png">
+			</a>
+		</p>
+	</div>
+
+	<script src="script.js">
+	</script>
+</body>
+</html>
